@@ -1,0 +1,1467 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: poppins ,sans-serif;
+   
+}
+body{
+    background-color: rgb(11, 22, 46) ;
+}
+#headerbar{
+    background-color: rgba(11, 18, 32, 0.861);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+#portfolio{
+width: 1000px;
+}
+#portfoliotext{
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 200px;
+    transition-duration: 1s;
+    animation-name: textside;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes textside{
+    from{
+        transform: translateY(500px);
+        font-size: 60px;
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+#headings{
+    display: flex;
+    
+    width: 100%;
+    margin-right: 300px;
+    font-weight: 500;
+    
+}
+#headings a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 45px;
+    
+}
+@keyframes text{
+    from{
+        transform: translatex(500px);
+    }
+to{
+    transform: translateX(0px)
+}
+}
+#headings a:hover{
+color: aqua;
+text-decoration: underline;
+transform: scale(1.2);
+
+}
+#portfoliotext:hover{
+    color: deeppink;
+    transform: scale(1.2);
+    text-shadow: 0 0 25px blue , 0 0 25px blue ;
+    
+}
+
+
+/*cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+#content{
+    background-color: rgba(11, 22, 46, 0.975) ;
+    display: flex;
+
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+img{
+    height: 350px;
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 50px aqua , 0 0 50px aqua ;
+    animation-name: pictureshedow;
+animation-duration: 3.2s ;
+animation-iteration-count: infinite ;
+
+}
+
+
+@keyframes pictureshedow{
+from{
+    box-shadow: 20%;
+    
+
+}
+to {
+    box-shadow: 0 0 20px aqua , 0 0 25px aqua;
+}
+}
+
+
+
+
+#home{
+    background-color: rgba(11, 22, 46, 0.975); 
+    height: 550px;
+
+}
+#space{
+    height: 100px;
+    width: 100%;
+   background-color: rgba(11, 22, 46, 0.975) ; 
+}
+#intro{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    height: 320px;
+    width: 600PX;
+    background-color: rgba(11, 22, 46, 0.975);
+    color: white;
+}
+#hello{
+font-size: 32px;
+
+animation-name: text ;
+animation-duration: 2s;
+animation-iteration-count: 1;
+
+}
+#name{
+    font-size: 56px;
+    margin-top: -30px;
+    
+animation-name: text2 ;
+animation-duration: 2s;
+animation-iteration-count: 1;
+
+}
+@keyframes text2{
+    from{
+        transform: translatey(-500px);
+        color: red;
+    }
+to{
+    transform: translateX(0px)
+}
+
+}
+
+#frontend{
+    font-size: 32px;
+    margin-top: -40px;
+
+}
+#developer{
+    color: hsla(180, 95%, 50%, 0.979);
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 160px;
+    margin-top: -67px;
+    transition: all;
+    transition-duration: 1s;
+    animation-name: shedow;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite ;
+    
+}
+
+@keyframes shedow{
+    from{
+        text-shadow: none;
+        translate : 30px ;
+    
+    }
+    to {
+        text-shadow: 0 0 20px aqua , 0 0 25px aqua;
+    }
+}
+#developer:hover{
+    color: aqua;
+transform: scale(1.03);
+text-shadow: 0 0 20px aqua, 0 0 25px aqua ;
+}
+#intro p{
+    font-size: 20px;
+    
+animation-name: text3 ;
+animation-duration: 2s;
+animation-iteration-count: 1;
+
+}
+@keyframes text3{
+    from{
+        transform: translate(-500px);
+        color: yellow;
+    }
+to{
+    transform: translateX(0px)
+}
+}
+#social{
+    display: flex;
+    width: 320px;
+    justify-content: space-evenly;
+}
+
+#facebook{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+    margin-top: -60px;
+    margin-right: -60px;
+}
+#facebook i{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+#facebook:hover{
+background-color: aqua;
+box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+    
+}
+#facebook i:hover{
+    color: blue;
+}
+
+#social i{
+    color: aqua;
+    font-size: 25px;
+}
+
+#whatsapp{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+    margin-top: -60px;
+    margin-right: -60px;}
+    #whatsapp i{
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    #whatsapp:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+        #whatsapp i:hover{
+            color: green;
+        }
+
+
+    #youtube{
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        border: 2px solid aqua;
+        margin-top: -60px;
+        margin-right: -60px;
+    }  
+    #youtube i{
+        margin-top: 3px;
+        margin-left: 2px;
+        font-size: 23px;
+    }
+    
+    #youtube:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+    #youtube i:hover{
+        color: red;
+    }
+    #tiktok{
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        border: 2px solid aqua;
+        margin-top: -60px;
+        margin-right: -60px;
+    }     
+    #tiktok i{
+        margin-top: 3px;
+        margin-left: -3px;
+        
+    } 
+    
+    #tiktok:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+    #tiktok i:hover{
+        color: rgb(8, 248, 248);
+
+    }
+    button{background-color: aqua;
+        border: none;
+        height: 35px;
+        width: 130px;
+        border-radius: 20px;
+        margin-left: 110px;
+        }
+        button a{
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            
+        }
+        button:hover{
+            box-shadow: 0 0 25px #0ef , 0 0 20px #0ef;
+            font-weight: 1000px;
+            }
+        /*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+
+        #picture2{
+            
+            margin-left: 100px;
+            margin-top: 230px;
+        }
+        #picture2 img{
+            height: 300px;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 50px rgb(255, 0, 195) , 0 0 50px rgb(255, 0, 179) ;
+            animation-name: pictureshedow;
+        animation-duration: 3.2s ;
+        animation-iteration-count: infinite ;
+        
+        }
+        
+        
+        @keyframes pictureshedow{
+        from{
+            box-shadow: 20%;
+            
+        
+        }
+        to {
+            box-shadow: 0 0 20px aqua , 0 0 25px aqua;
+        }
+        }
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+        #about{
+            height: 699px;
+            
+            width: 100%;
+            display: flex;
+        }
+        #pictureset{
+            width: 50%;
+            background-color: rgba(11, 22, 46, 0.975);
+
+        }
+        #aboutme{
+width: 50%;
+background-color: rgba(11, 22, 46, 0.975);
+color: white;
+
+        }
+        #about h2{
+            margin-top: 150px;
+            font-size: 56px;
+            margin-left: 20px;
+        }
+        #about h2 span{
+            color: aqua;
+        }
+        #about h4{
+            font-size: 30px;
+            margin-top: -40px;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+        #about p{
+            margin-left: 10px;
+            margin-top: -20px;
+            text-align: justify;
+            margin-right: 10px;
+        }
+#button2{
+margin-top: 10px;
+margin-left: 14px;
+}
+
+        /*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+#thirdpage{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+
+    
+}
+#services{
+    height: 100px;
+    background-color: rgba(11, 22, 46, 0.975);
+
+}
+
+@keyframes color{
+    from{
+        
+    
+    }
+    to {
+        color: yellow;
+    }
+
+
+
+
+}
+#thirdpage span{
+    color: #0ef;
+}
+#boxes{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+#box1{
+    background-color: rgb(10, 7, 30);
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px blue , 0 0 15px rgba(0, 0, 255, 0.733);
+    transition: all ease-in-out 0.3s;
+}
+#box1 p{
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+#box1 h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#box1 i{
+    color: #0ef;
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#box1:hover{
+  border: 3px solid yellow;
+    scale: 1.05;
+    box-shadow: 0 0 15px aqua, 0 0 15px aqua;
+
+}
+#button3{
+    margin-left: 75px;
+}
+#box2{
+    background-color: rgb(10, 7, 30);
+
+    height: 350px;
+    width: 300px;
+    margin-left: -26px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px blue , 0 0 15px blue;
+    transition: all ease-in-out 0.3s;
+
+}
+
+#box2:hover{
+    border: 3px solid yellow;
+    scale: 1.05;
+    box-shadow: 0 0 15px aqua, 0 0 15px aqua;
+
+}
+
+
+#box2 p{
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+#box2 h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#box2 i{
+    color: #0ef;
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#button4{
+    margin-top: 18px;
+    margin-left: 75px;
+}
+
+
+
+#box3{
+    background-color: rgb(10, 7, 30);
+    height: 350px;
+    width: 300px;
+      margin-left: -39px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px blue , 0 0 15px blue;
+    transition: all ease-in-out 0.3s;
+
+}
+#box3:hover{
+    border: 3px solid yellow;
+    scale: 1.05;
+    box-shadow: 0 0 15px aqua, 0 0 15px aqua;
+
+}
+#box3 p{
+    margin-top: -15px;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+}
+#box3 h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#box3 i{
+    color: #0ef;
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#button5{
+    margin-top: px;
+    margin-left: 75px;
+}
+/*cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+#skill2{
+    height: 100px;
+}
+#typeskills{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: 2.5px white underline;
+    
+    
+}
+.headingskills{
+    color: white;
+    font-size:25px ;
+}
+.headingskills:hover{
+    color:  rgb(255, 0, 123);
+    text-decoration: 2.5px aqua underline;
+}
+
+#abouttechnicalskills{
+    background-color: blueviolet;
+    height: 400px;
+    width: 350px;
+    margin-left: 140px;
+    margin-top: -100px;
+}
+
+#skill{
+    height: 500px;
+    color: white;
+}
+h4{
+    color: white;
+}
+#htmltext{
+    margin-top: -230px;
+    margin-left: 110px;
+}
+#csstext{
+    margin-top: px;
+    margin-left: 110px;
+}
+#javatext{
+    margin-top: -7px;
+    margin-left: 110px;
+}
+#pythomtext{
+    margin-left: 110px;
+    margin-top: 35px;
+}
+#ctext{
+    margin-left: 110px;
+    margin-top: 27px;
+}
+.linebars{
+    height: 1.5px;
+    width: 340px;
+    border-radius: 20px;
+    background-color:black;
+    
+}
+#html{
+    background-color: blueviolet;
+    height: 3px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 110px;
+    animation-name: htmlline;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes htmlline{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+}
+#htmlicon{
+    font-size: 20px;
+    color: orange;
+    margin-left: 110px;
+    margin-top: -30px;
+}
+#Css{   background-color: blueviolet;
+    height: 3px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    animation-name: htmlline;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes htmlline{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+}
+#cssicon{
+    color: rgb(68, 68, 241);
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+#pythomicon{
+    color: rgb(237, 47, 174);
+font-size: 20px;
+margin-top: 10px;
+}
+#javaicon{
+    font-size: 20px;
+    color: yellow;
+    margin-top: 10px;
+}
+#cicon{
+    margin-top: 10px;
+    color: red;
+}
+
+#Javascript{   background-color: blueviolet;
+    height: 3px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    animation-name: htmlline;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes htmlline{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+#Pythom{   background-color: blueviolet;
+    height: 3px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    animation-name: htmlline;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes htmlline{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+#C{   background-color: rgb(98, 43, 226);
+    height: 3px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 110px;
+    animation-name: htmlline;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes htmlline{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+#htmlaqua{
+    height: 3.5px;
+    width: 400px;
+    background-color: aqua;
+    margin-top: -225px; 
+    box-shadow: 0 0 10px aqua , 0 0 10px aqua;
+    margin-left: 110px;
+    animation-name: htmlaqua;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes htmlaqua{
+    from{
+width: 0px;
+    }
+    to{
+        width: 370px;
+    }
+}
+
+
+#cssaqua{
+    height: 3.5px;
+    width: 350px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 110px;
+    box-shadow: 0 0 10px aqua , 0 0 10px aqua;
+
+    animation-name: cssaqua;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes cssaqua{
+    from{
+width: 0px;
+    }
+    to{
+        width: 330px;
+    }
+}
+
+
+#pythomaqua{
+    height: 3.5px;
+    width: 350px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 110px;
+    box-shadow: 0 0 10px aqua , 0 0 10px aqua;
+
+    animation-name: pythomaqua;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pythomaqua{
+    from{
+width: 0px;
+    }
+    to{
+        width: 100px;
+    }
+}
+
+#javaaqua{
+    height: 3.5px;
+    width: 350px;
+    background-color: aqua;
+    margin-top: 50px;
+    box-shadow: 0 0 10px aqua , 0 0 10px aqua;
+
+    margin-left: 110px;
+    animation-name: javaaqua;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes javaaqua{
+    from{
+width: 0px;
+    }
+    to{
+        width: 150px;
+    }
+}
+
+#caqua{
+    height: 3.5px;
+    width: 350px;
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua , 0 0 10px aqua;
+    margin-top: 38px;
+    margin-left: 110px;
+    animation-name: caqua;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes caqua{
+    from{
+width: 0px;
+    }
+    to{
+        width: 220px;
+    }
+}
+#htmlage{
+    height: 20px;
+    width: 40px;
+    color: rgb(255, 213, 0);
+    margin-top: -230px;
+    margin-left: 469px;
+    font-size: 15px;
+
+    animation-name: cssage;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+@keyframes cssage{
+    from{
+margin-left: -1px;
+    }
+    to{
+    
+    }
+}
+#cssage{
+    height: 20px;
+    width: 40px;
+    color: rgb(255, 213, 0);
+margin-top: 35px;
+    margin-left: 432px;
+    font-size: 15px;
+       
+    animation-name: cssage;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+@keyframes cssage{
+    from{
+margin-left: -1px;
+    }
+    to{
+    
+    }
+}
+    #javaage{
+        height: 20px;
+        width: 40px;
+        color: rgb(255, 213, 0);
+    margin-top: 35px;
+        margin-left: 250px;
+        font-size: 15px;
+        
+    animation-name: cssage;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+@keyframes cssage{
+    from{
+margin-left: -1px;
+    }
+    to{
+    
+    }
+}
+
+    
+    #pythomage{
+
+        height: 20px;
+        width: 40px;
+        color: rgb(255, 213, 0);
+    margin-top: 35px;
+        margin-left: 200px;
+        font-size: 15px;
+    
+        animation-name: cssage;
+        animation-duration: 3s;
+        animation-iteration-count: 2;
+    }
+    @keyframes cssage{
+        from{
+    margin-left: -1px;
+        }
+        to{
+        
+        }
+    }
+    #cage{
+        height: 20px;
+        width: 40px;
+        color: rgb(255, 213, 0);
+    margin-top: 19px;
+        margin-left: 324px;
+        font-size: 15px;
+
+    
+        animation-name: cssage;
+        animation-duration: 3s;
+        animation-iteration-count: 2;
+    }
+    @keyframes cssage{
+        from{
+    margin-left: -1px;
+        }
+        to{
+        
+        }
+    }
+    /*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+*/
+    #space1{
+    height: 70px;
+}
+
+    #portfolio2{
+    height: 100px;
+}
+#newportfolio{
+    height: 1000px;
+    width: 100%;
+}
+    #fifthpage{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#project1{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: -200px; 
+      background-image: url(istockphoto-1193269492-640x640.jpg);
+    background-size: cover;
+
+
+    
+}
+
+#project2{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    
+    background-image: url(istockphoto-1226413184-640x640.jpg);
+    background-size: cover;
+}
+
+#project3{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: -200px;
+    background-image: url(istockphoto-1306941251-640x640.jpg);
+    background-size: cover;
+}
+
+#project4{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: -200px;
+    background-image: url(istockphoto-1336294992-640x640.jpg);
+    background-size: cover;
+
+}
+
+#project5{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    
+    background-image: url(istockphoto-1338950858-640x640.jpg);
+    background-size: cover;
+}
+
+#project6{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: -200px;
+    background-image: url(istockphoto-1403806114-640x640.jpg);
+    background-size: cover;
+}
+
+
+
+#project1text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+}
+
+#project1text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 10px;
+
+}
+#project1text h1{
+    font-size: 33PX;
+    font-weight: 600;
+color: rgb(0, 255, 157);
+}
+
+
+
+#project2text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    margin-left: -710px;
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+}
+
+#project2text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 11px;
+
+}
+#project2text h1{
+font-weight: 700;
+color: rgb(0, 255, 157);
+}
+
+
+
+
+
+#project3text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    margin-left: 710px;
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+}
+
+#project3text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 11px;
+
+}
+#project3text h1{
+font-weight: 700;
+color: rgb(0, 255, 157);
+}
+
+
+
+
+
+#project4text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    margin-left: -710px;
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+}
+
+#project4text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 11px;
+
+}
+#project4text h1{
+font-weight: 700;
+color: rgb(0, 255, 157);
+}
+
+
+
+
+
+#project5text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+}
+
+#project5text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 11px;
+
+}
+#project5text h1{
+font-weight: 700;
+color: rgb(0, 255, 157);
+}
+
+
+
+
+
+#project6text{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    margin-left: 710px;
+transition: 0.3s;
+opacity: 0;
+border-radius: 20px;
+transform: translateY(25px);
+text-align: center;
+
+
+}
+
+#project6text:hover{
+transform: translateY(0px);
+background-color: rgba(255, 0, 238, 0.537);
+color: white;
+opacity: 1;
+text-align: center;
+padding: 11px;
+
+
+
+}
+#project6text h1{
+font-weight: 700;
+color: rgb(0, 255, 157);
+}
+    /*cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+
+    
+#social2{
+    display: flex;
+    width: 320px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: -60px;
+}
+
+#facebook{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+    margin-top: -60px;
+    margin-right: -60px;
+}
+#facebook i{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+#facebook:hover{
+background-color: aqua;
+box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+    
+}
+#facebook i:hover{
+    color: blue;
+}
+
+#social2 i{
+    color: aqua;
+    font-size: 25px;
+}
+
+#whatsapp{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+    margin-top: -60px;
+    margin-right: -60px;}
+    #whatsapp i{
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    #whatsapp:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+        #whatsapp i:hover{
+            color: green;
+        }
+
+
+    #youtube{
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        border: 2px solid aqua;
+        margin-top: -60px;
+        margin-right: -60px;
+    }  
+    #youtube i{
+        margin-top: 3px;
+        margin-left: 2px;
+        font-size: 23px;
+    }
+    
+    #youtube:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+    #youtube i:hover{
+        color: red;
+    }
+    #tiktok{
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        border: 2px solid aqua;
+        margin-top: -60px;
+        margin-right: -60px;
+    }     
+    #tiktok i{
+        margin-top: 3px;
+        margin-left: 3px;
+    } 
+    
+    #tiktok:hover{
+        background-color: aqua;
+        box-shadow: 0 0 5px aqua , 0 0 25px aqua;
+        }
+    #tiktok i:hover{
+        color: black;
+
+    }
+#contactmetext{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -350px;
+    margin-right: 600px;
+    animation-name: bright;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes bright{
+    from{
+        text-shadow: 0;
+    }
+    to{
+        text-shadow: 0 0 20px aqua , 0 0 20px aqua;
+        scale: 1.1;
+    }
+}
+#contactmetext span{
+    color: #0ef;
+}
+#pagelast{
+    height: 50px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+#sayhello{
+    height: 300px;
+    width: 500px;
+    color: rgba(240, 248, 255, 0.774);
+    margin-left: 30px;
+}
+#sayhello h1{
+    color: white;
+}
+
+
+
+
+#contactmail{
+    color: rgba(240, 248, 255, 0.774);
+    display: flex;
+    margin-left: 20px;
+    margin-top: -60px;
+    
+}
+#contactmail i{
+    font-size: 20px;
+    color: #0ef;
+
+}
+#contactmail p{
+    margin-left: 7px;
+    margin-top: px;
+    color: azure;
+    margin-top: -6px;
+    font-size: 16px;
+
+}
+
+#contactnumber{
+    color: rgba(240, 248, 255, 0.774);
+    display: flex;
+    margin-left: 20px;
+}
+#contactnumber i{
+    font-size: 20px;
+    color: #0ef;
+
+}
+#contactnumber p{
+    margin-left: 7px;
+    margin-top: px;
+    color: azure;
+    margin-top: -2px;
+    font-size: 17px;
+
+}
+
+
+#yourmessage{
+    margin-top: -400px;
+    margin-left: 660px;
+}
+#entername{
+height: 30px;
+width: 500px;
+margin-bottom: 5px;
+border-radius: 8px;
+background-color: rgb(91, 91, 92);
+
+}
+#enteremail{
+
+    height: 30px;
+    width: 500px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: rgb(91, 91, 92);
+
+}
+#entersubject{
+
+    height: 30px;
+    width: 500px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: rgb(91, 91, 92);
+
+}
+#entermessage{
+    height: 140px;
+    width: 500px;  
+    border-radius: 8px;
+    background-color: rgb(91, 91, 92);
+}
+
+
+::placeholder{
+    color: black;
+}
+#lastbutton{
+width: 510px;
+margin-left: 0px;
+margin-top: 20px;
+}
+
